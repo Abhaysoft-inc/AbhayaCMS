@@ -1,0 +1,47 @@
+/* CSS for Profile Page */
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .profile-picture {
+    margin-right: 40px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .profile-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
